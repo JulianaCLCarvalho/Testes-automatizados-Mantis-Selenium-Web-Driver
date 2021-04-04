@@ -29,7 +29,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             #endregion
 
             loginFlows.EfetuarLogin(usuario, senha);
@@ -48,7 +48,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             #endregion
 
             loginFlows.EfetuarLogin(usuario, senha);
@@ -67,7 +67,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
 
 
             #endregion
@@ -97,7 +97,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             string nomeProjeto = "Base2";
             string estado = "release";
             string visibilidade = "privado";
@@ -131,7 +131,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             string nomeProjeto = "Base2";
             string estado = "release";
             string visibilidade = "privado";
@@ -161,7 +161,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             string nomeProjeto = "Base2";
             string estado = "release";
             string visibilidade = "privado";
@@ -193,7 +193,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             string nomeProjeto = "Base2";
             string estado = "release";
             string visibilidade = "privado";

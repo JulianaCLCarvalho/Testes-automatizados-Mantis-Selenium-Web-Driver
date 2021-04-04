@@ -1,0 +1,1278 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Extent Framework</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+<body class="test-view  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">03/04/2021 16:32:00</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																																							<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios</p> 
+													<p class="duration text-sm">0h:1m:6s+370ms</p> 
+													<span class="datetime">16:32:00 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios</h5>
+															<span class='badge badge-success'>03/04/2021 16:32:00</span>
+															<span class='badge badge-danger'>03/04/2021 16:33:06</span>
+															<span class='badge badge-default'>0h:1m:6s+370ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:32:23</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_22.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_22.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_22.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:32:26</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_25.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_25.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_25.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:32:27</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_27.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_27.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_27.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:32:31</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_30.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_30.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_30.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:32:34</td>
+				<td>
+ClicarEmCriarTarefa ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_34.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_34.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_32_34.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:33:06</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"css selector","selector":"#category_id"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at DesafioSeleniumMantis.Bases.PageBase.WaitForElement(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 32
+   at DesafioSeleniumMantis.Bases.PageBase.ComboBoxSelectByVisibleText(By locator, String text) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 106
+   at DesafioSeleniumMantis.Pages.CriarTarefaPage.SelecionarCategoria(String categoria) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\CriarTarefaPage.cs:line 120
+   at DesafioSeleniumMantis.Tests.CriarTarefaTests.CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\CriarTarefaTests.cs:line 74
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_33_06.png' src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_33_06.png' data-src='./CriarNovaTarefaComSucessoInformandoSomenteCamposObrigatorios_03_04_2021-16_33_06.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarCamposCriarTarefa</p> 
+													<p class="duration text-sm">0h:1m:4s+392ms</p> 
+													<span class="datetime">16:33:12 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarCamposCriarTarefa</h5>
+															<span class='badge badge-success'>03/04/2021 16:33:12</span>
+															<span class='badge badge-danger'>03/04/2021 16:34:17</span>
+															<span class='badge badge-default'>0h:1m:4s+392ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:33:35</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_33_35.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_33_35.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_33_35.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:33:38</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_33_37.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_33_37.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_33_37.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:33:39</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_33_38.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_33_38.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_33_38.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:33:43</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_33_43.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_33_43.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_33_43.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:33:45</td>
+				<td>
+ClicarEmCriarTarefa ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_33_45.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_33_45.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_33_45.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:34:17</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='report_bug_form']/div/div"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at DesafioSeleniumMantis.Bases.PageBase.WaitForElement(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 32
+   at DesafioSeleniumMantis.Bases.PageBase.GetText(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 120
+   at DesafioSeleniumMantis.Pages.CriarTarefaPage.DigiteDetalhesRelatorio() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\CriarTarefaPage.cs:line 44
+   at DesafioSeleniumMantis.Tests.CriarTarefaTests.ValidarCamposCriarTarefa() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\CriarTarefaTests.cs:line 41
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCamposCriarTarefa_03_04_2021-16_34_16.png' src='./ValidarCamposCriarTarefa_03_04_2021-16_34_16.png' data-src='./ValidarCamposCriarTarefa_03_04_2021-16_34_16.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarApagarProjeto</p> 
+													<p class="duration text-sm">0h:1m:6s+796ms</p> 
+													<span class="datetime">16:34:39 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarApagarProjeto</h5>
+															<span class='badge badge-success'>03/04/2021 16:34:39</span>
+															<span class='badge badge-danger'>03/04/2021 16:35:45</span>
+															<span class='badge badge-default'>0h:1m:6s+796ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:03</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_03.png' src='./ValidarApagarProjeto_03_04_2021-16_35_03.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_03.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:05</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_05.png' src='./ValidarApagarProjeto_03_04_2021-16_35_05.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_05.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:06</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_06.png' src='./ValidarApagarProjeto_03_04_2021-16_35_06.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_06.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:10</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_09.png' src='./ValidarApagarProjeto_03_04_2021-16_35_09.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_09.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:13</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_13.png' src='./ValidarApagarProjeto_03_04_2021-16_35_13.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_13.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:16</td>
+				<td>
+ClicarEmGerenciarProjetos ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_16.png' src='./ValidarApagarProjeto_03_04_2021-16_35_16.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_16.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:18</td>
+				<td>
+ClicarEmCriarUmNovoProjeto ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_17.png' src='./ValidarApagarProjeto_03_04_2021-16_35_17.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_17.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:19</td>
+				<td>
+PreencherNomeProjeto || PARAMETER: Base2					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_19.png' src='./ValidarApagarProjeto_03_04_2021-16_35_19.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_19.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:21</td>
+				<td>
+SelecionarStatus || PARAMETER: release					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_21.png' src='./ValidarApagarProjeto_03_04_2021-16_35_21.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_21.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:22</td>
+				<td>
+SelecionarVisibilidade || PARAMETER: privado					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_22.png' src='./ValidarApagarProjeto_03_04_2021-16_35_22.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_22.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:23</td>
+				<td>
+PreencherDescricao || PARAMETER: Desafio de automação de testes com Selenium Webdriver					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_23.png' src='./ValidarApagarProjeto_03_04_2021-16_35_23.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_23.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:28</td>
+				<td>
+ClicarEmAdicionarProjeto ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_28.png' src='./ValidarApagarProjeto_03_04_2021-16_35_28.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_28.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:36</td>
+				<td>
+ClicarEmProjetoExistente ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_36.png' src='./ValidarApagarProjeto_03_04_2021-16_35_36.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_36.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:43</td>
+				<td>
+ClicarEmApagarProjeto ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_42.png' src='./ValidarApagarProjeto_03_04_2021-16_35_42.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_42.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:35:44</td>
+				<td>
+RetornaMensagemDeConfirmacao || RETURN: Você tem certeza que deseja apagar o projeto "Base2"?
+Isso também excluirá 0 relatórios de problemas anexados.					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_44.png' src='./ValidarApagarProjeto_03_04_2021-16_35_44.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_44.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:35:45</td>
+				<td>
+Test Result: Fail<pre>Message:   Expected string length 104 but was 111. Strings differ at index 35.
+  Expected: "...tem certeza que deseja apagar este projeto e todas as tare..."
+  But was:  "...tem certeza que deseja apagar o projeto "Base2"?\r\nIsso tam..."
+  --------------------------------------------^
+</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarApagarProjeto() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 177
+</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarApagarProjeto_03_04_2021-16_35_45.png' src='./ValidarApagarProjeto_03_04_2021-16_35_45.png' data-src='./ValidarApagarProjeto_03_04_2021-16_35_45.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarAtualizarProjeto</p> 
+													<p class="duration text-sm">0h:0m:58s+261ms</p> 
+													<span class="datetime">16:35:50 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarAtualizarProjeto</h5>
+															<span class='badge badge-success'>03/04/2021 16:35:50</span>
+															<span class='badge badge-danger'>03/04/2021 16:36:49</span>
+															<span class='badge badge-default'>0h:0m:58s+261ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:36:06</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_06.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_06.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_06.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:36:08</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:36:09</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_08.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:36:16</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_15.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_15.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_15.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:36:18</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_17.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_17.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_17.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:36:49</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Gerenciar Projetos"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Bases.PageBase.Click(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 83
+   at DesafioSeleniumMantis.Pages.GerenciarProjetosPage.ClicarEmGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\GerenciarProjetosPage.cs:line 56
+   at DesafioSeleniumMantis.Flows.NovoProjetoFlows.IncluirProjeto(String nomeProjeto, String estado, String visibilidade, String descricao) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Flows\NovoProjetoFlows.cs:line 26
+   at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarAtualizarProjeto() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 143
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarAtualizarProjeto_03_04_2021-16_36_48.png' src='./ValidarAtualizarProjeto_03_04_2021-16_36_48.png' data-src='./ValidarAtualizarProjeto_03_04_2021-16_36_48.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarCadastroNovoProjeto</p> 
+													<p class="duration text-sm">0h:1m:0s+578ms</p> 
+													<span class="datetime">16:36:55 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarCadastroNovoProjeto</h5>
+															<span class='badge badge-success'>03/04/2021 16:36:55</span>
+															<span class='badge badge-danger'>03/04/2021 16:37:56</span>
+															<span class='badge badge-default'>0h:1m:0s+578ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:37:15</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_15.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_15.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_15.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:37:17</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_16.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_16.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_16.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:37:18</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_17.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_17.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_17.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:37:23</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_22.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_22.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_22.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:37:25</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_25.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_25.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_25.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:37:56</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Gerenciar Projetos"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Bases.PageBase.Click(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 83
+   at DesafioSeleniumMantis.Pages.GerenciarProjetosPage.ClicarEmGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\GerenciarProjetosPage.cs:line 56
+   at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarCadastroNovoProjeto() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 77
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarCadastroNovoProjeto_03_04_2021-16_37_56.png' src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_56.png' data-src='./ValidarCadastroNovoProjeto_03_04_2021-16_37_56.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarIncluirProjetoExistente</p> 
+													<p class="duration text-sm">0h:1m:1s+901ms</p> 
+													<span class="datetime">16:38:02 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarIncluirProjetoExistente</h5>
+															<span class='badge badge-success'>03/04/2021 16:38:02</span>
+															<span class='badge badge-danger'>03/04/2021 16:39:04</span>
+															<span class='badge badge-default'>0h:1m:1s+901ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:22</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_21.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_21.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_21.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:24</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_23.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_23.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_23.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:25</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_25.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_25.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_25.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:29</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_29.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_29.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_29.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:32</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_31.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_31.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_31.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:38:33</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_38_33.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_33.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_38_33.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:39:04</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Gerenciar Projetos"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Bases.PageBase.Click(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 83
+   at DesafioSeleniumMantis.Pages.GerenciarProjetosPage.ClicarEmGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\GerenciarProjetosPage.cs:line 56
+   at DesafioSeleniumMantis.Flows.NovoProjetoFlows.IncluirProjeto(String nomeProjeto, String estado, String visibilidade, String descricao) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Flows\NovoProjetoFlows.cs:line 26
+   at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarIncluirProjetoExistente() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 206
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirProjetoExistente_03_04_2021-16_39_04.png' src='./ValidarIncluirProjetoExistente_03_04_2021-16_39_04.png' data-src='./ValidarIncluirProjetoExistente_03_04_2021-16_39_04.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarIncluirUmNovoProjeto</p> 
+													<p class="duration text-sm">0h:1m:7s+161ms</p> 
+													<span class="datetime">16:39:12 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarIncluirUmNovoProjeto</h5>
+															<span class='badge badge-success'>03/04/2021 16:39:12</span>
+															<span class='badge badge-danger'>03/04/2021 16:40:19</span>
+															<span class='badge badge-default'>0h:1m:7s+161ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:39:38</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_37.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_37.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_37.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:39:40</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_39.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_39.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_39.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:39:40</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_40.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_40.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_40.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:39:45</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_44.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_44.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_44.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:39:48</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_47.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_47.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_39_47.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:40:19</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Gerenciar Projetos"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Bases.PageBase.Click(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 83
+   at DesafioSeleniumMantis.Pages.GerenciarProjetosPage.ClicarEmGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\GerenciarProjetosPage.cs:line 56
+   at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarIncluirUmNovoProjeto() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 110
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarIncluirUmNovoProjeto_03_04_2021-16_40_18.png' src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_40_18.png' data-src='./ValidarIncluirUmNovoProjeto_03_04_2021-16_40_18.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarMenuGerenciar</p> 
+													<p class="duration text-sm">0h:0m:28s+333ms</p> 
+													<span class="datetime">16:40:24 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarMenuGerenciar</h5>
+															<span class='badge badge-success'>03/04/2021 16:40:24</span>
+															<span class='badge badge-danger'>03/04/2021 16:40:53</span>
+															<span class='badge badge-default'>0h:0m:28s+333ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:42</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_42.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_42.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_42.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:44</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_44.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_44.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_44.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:46</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_46.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_46.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_46.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:50</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_49.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_49.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_49.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:51</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_51.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_51.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_51.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:40:52</td>
+				<td>
+InformacaoSite || RETURN: Resumo					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_52.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_52.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_52.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:40:53</td>
+				<td>
+Test Result: Fail<pre>Message:   Expected string length 18 but was 6. Strings differ at index 0.
+  Expected: "Informação do Site"
+  But was:  "Resumo"
+  -----------^
+</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarMenuGerenciar() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 37
+</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciar_03_04_2021-16_40_52.png' src='./ValidarMenuGerenciar_03_04_2021-16_40_52.png' data-src='./ValidarMenuGerenciar_03_04_2021-16_40_52.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ValidarMenuGerenciarProjetos</p> 
+													<p class="duration text-sm">0h:0m:56s+410ms</p> 
+													<span class="datetime">16:40:59 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">ValidarMenuGerenciarProjetos</h5>
+															<span class='badge badge-success'>03/04/2021 16:40:59</span>
+															<span class='badge badge-danger'>03/04/2021 16:41:55</span>
+															<span class='badge badge-default'>0h:0m:56s+410ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:41:16</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_16.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_16.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_16.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:41:18</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_17.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_17.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_17.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:41:19</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_18.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_18.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_18.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:41:22</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_22.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_22.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_22.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:41:25</td>
+				<td>
+ClicarEmGerenciar ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_24.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_24.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_24.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:41:55</td>
+				<td>
+Test Result: Fail<pre>Message: OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds
+  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {"method":"link text","selector":"Gerenciar Projetos"}
+  (Session info: chrome=89.0.4389.114)</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Bases.PageBase.Click(By locator) in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Bases\PageBase.cs:line 83
+   at DesafioSeleniumMantis.Pages.GerenciarProjetosPage.ClicarEmGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Pages\GerenciarProjetosPage.cs:line 56
+   at DesafioSeleniumMantis.Tests.GerenciarProjetosTests.ValidarMenuGerenciarProjetos() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\GerenciarProjetosTests.cs:line 56
+--NoSuchElementException
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByLinkText(String linkText)
+   at OpenQA.Selenium.By.<>c__DisplayClass17_0.<LinkText>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_55.png' src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_55.png' data-src='./ValidarMenuGerenciarProjetos_03_04_2021-16_41_55.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">RealizarLoginComSucesso</p> 
+													<p class="duration text-sm">0h:0m:21s+283ms</p> 
+													<span class="datetime">16:42:00 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">RealizarLoginComSucesso</h5>
+															<span class='badge badge-success'>03/04/2021 16:42:00</span>
+															<span class='badge badge-danger'>03/04/2021 16:42:22</span>
+															<span class='badge badge-default'>0h:0m:21s+283ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:14</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_14.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_14.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_14.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:17</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_16.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_16.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_16.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:17</td>
+				<td>
+PreencherSenha || PARAMETER: admin					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_17.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_17.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_17.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:20</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_20.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_20.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_20.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:21</td>
+				<td>
+MinhaVistaLogin || RETURN: administrator ( Adminstrador ) administrador					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_21.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_21.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_21.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>16:42:22</td>
+				<td>
+Test Result: Fail<pre>Message:   Expected string length 27 but was 44. Strings differ at index 14.
+  Expected: "administrator administrador"
+  But was:  "administrator ( Adminstrador ) administrador"
+  -------------------------^
+</pre><pre>Stack Trace:    at DesafioSeleniumMantis.Tests.LoginTests.RealizarLoginComSucesso() in C:\Repositório\DesafioSeleniumWebDriver\DesafioSeleniumMantis\Tests\LoginTests.cs:line 35
+</pre>					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginComSucesso_03_04_2021-16_42_21.png' src='./RealizarLoginComSucesso_03_04_2021-16_42_21.png' data-src='./RealizarLoginComSucesso_03_04_2021-16_42_21.png'>				</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">RealizarLoginSenhaInvalida</p> 
+													<p class="duration text-sm">0h:0m:17s+911ms</p> 
+													<span class="datetime">16:42:26 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">RealizarLoginSenhaInvalida</h5>
+															<span class='badge badge-success'>03/04/2021 16:42:26</span>
+															<span class='badge badge-danger'>03/04/2021 16:42:44</span>
+															<span class='badge badge-default'>0h:0m:17s+911ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:38</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaInvalida_03_04_2021-16_42_38.png' src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_38.png' data-src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_38.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:40</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaInvalida_03_04_2021-16_42_40.png' src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_40.png' data-src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_40.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:41</td>
+				<td>
+PreencherSenha || PARAMETER: 123456					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaInvalida_03_04_2021-16_42_41.png' src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_41.png' data-src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_41.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:43</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaInvalida_03_04_2021-16_42_43.png' src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_43.png' data-src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_43.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:44</td>
+				<td>
+RetornaMensagemDeErro || RETURN: Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaInvalida_03_04_2021-16_42_44.png' src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_44.png' data-src='./RealizarLoginSenhaInvalida_03_04_2021-16_42_44.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:42:44</td>
+				<td>
+Test Result: Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">RealizarLoginSenhaNaoInformada</p> 
+													<p class="duration text-sm">0h:0m:21s+148ms</p> 
+													<span class="datetime">16:42:49 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">RealizarLoginSenhaNaoInformada</h5>
+															<span class='badge badge-success'>03/04/2021 16:42:49</span>
+															<span class='badge badge-danger'>03/04/2021 16:43:10</span>
+															<span class='badge badge-default'>0h:0m:21s+148ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:05</td>
+				<td>
+PreencherUsuario || PARAMETER: Administrator					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_05.png' src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_05.png' data-src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_05.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:07</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_06.png' src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_06.png' data-src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_06.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:08</td>
+				<td>
+PreencherSenha || PARAMETER:					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_07.png' src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_07.png' data-src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_07.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:09</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png' src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png' data-src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:10</td>
+				<td>
+RetornaMensagemDeErro || RETURN: Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png' src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png' data-src='./RealizarLoginSenhaNaoInformada_03_04_2021-16_43_09.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:10</td>
+				<td>
+Test Result: Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">RealizarLoginUsuarioNaoInformado</p> 
+													<p class="duration text-sm">0h:0m:19s+155ms</p> 
+													<span class="datetime">16:43:14 </span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">RealizarLoginUsuarioNaoInformado</h5>
+															<span class='badge badge-success'>03/04/2021 16:43:14</span>
+															<span class='badge badge-danger'>03/04/2021 16:43:33</span>
+															<span class='badge badge-default'>0h:0m:19s+155ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:31</td>
+				<td>
+PreencherUsuario || PARAMETER:					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_31.png' src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_31.png' data-src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_31.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:33</td>
+				<td>
+ClicarEmLogin ||					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_32.png' src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_32.png' data-src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_32.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:33</td>
+				<td>
+RetornaMensagemDeErro || RETURN: Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_33.png' src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_33.png' data-src='./RealizarLoginUsuarioNaoInformado_03_04_2021-16_43_33.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>16:43:33</td>
+				<td>
+Test Result: Pass									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>

@@ -30,7 +30,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
 
             #endregion
 
@@ -63,7 +63,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             string categoria = "[Todos os Projetos] General";
             string resumo = "Resumo teste automático " + GeneralHelpers.ReturnStringWithRandomCharacters(5);
             string descricao = "Descrição teste automático";
@@ -88,7 +88,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             #endregion
 
             loginFlows.EfetuarLogin(usuario, senha);

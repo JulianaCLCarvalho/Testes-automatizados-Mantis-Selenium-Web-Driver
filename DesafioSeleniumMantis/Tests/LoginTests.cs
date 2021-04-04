@@ -24,7 +24,7 @@ namespace DesafioSeleniumMantis.Tests
 
             #region Parameters
             string usuario = "Administrator";
-            string senha = "root";
+            string senha = "admin";
             #endregion
 
             loginPage.PreencherUsuario(usuario);
